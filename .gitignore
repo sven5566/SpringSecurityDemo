@@ -2,3 +2,14 @@
 /.recommenders
 /RemoteSystemsTempFiles
 /Servers
+/whr-security-app/.project
+/whr-security-app/target
+/whr-security-app/.classpath
+/whr-security-browser/.project
+/whr-security-browser/target
+/whr-security-browser/.classpath
+/whr-security-core/.classpath
+/whr-security-core/target
+/whr-security-demo/.classpath
+/whr-security-demo/.project
+/whr-security-demo/target
