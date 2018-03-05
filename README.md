@@ -4,5 +4,5 @@
 * whr-security-core:核心类
     * * whr-security-app:app对应接口
     * * whr-security-browser:网站对应接口
-* whr-security-demo:demo，依赖security-core
+* whr-security-demo:demo工程，根据需要进行依赖
 
