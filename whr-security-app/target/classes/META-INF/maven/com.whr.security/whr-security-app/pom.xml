@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>whr-security-app</artifactId>
+  
+  <parent>
+  	<groupId>com.whr.security</groupId>
+  	<artifactId>whr-security</artifactId>
+  	<version>1.0.1-SNAPSHOT</version>
+  	<relativePath>../whr-security</relativePath>
+  </parent>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.whr.security</groupId>
+  		<artifactId>whr-security-core</artifactId>
+  		<version>${whr.security.version}</version>
+  	</dependency>
+  </dependencies>
+</project>
