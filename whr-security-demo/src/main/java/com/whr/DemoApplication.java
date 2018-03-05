@@ -15,6 +15,6 @@ public class DemoApplication {
 	
 	@GetMapping("/test")
 	public String test() {
-		return "asdf";
+		return "测试字段asdf";
 	}
 }
