@@ -10,4 +10,7 @@
 1.SpringBoot+SpringSecurity
 2.javax.validation自定义注解验证
 
+### TODO:
+1.Exception的枚举
+
 

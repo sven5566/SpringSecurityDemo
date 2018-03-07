@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.annotation.JsonView;
+import com.whr.UserNotExsitException;
 import com.whr.dto.User;
 import com.whr.dto.UserQuaryCondition;
 
@@ -79,6 +80,8 @@ public class UserController {
 	@GetMapping(value="/{id:\\d+}")
 	@JsonView(User.UserDetailView.class)
 	public User getInof(@PathVariable String id) {
+//		throw new UserNotExsitException(id);
+//		throw new RuntimeException("user not exsit");
 		User user=new User();
 		user.setUserName("tom");
 		user.setPassword("tomPassword");
