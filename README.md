@@ -6,3 +6,8 @@
     * * whr-security-browser:网站对应接口
 * whr-security-demo:demo工程，根据需要进行依赖
 
+## 项目点：
+1.SpringBoot+SpringSecurity
+2.javax.validation自定义注解验证
+
+
